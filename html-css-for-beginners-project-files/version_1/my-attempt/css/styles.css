@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-size: 1.25rem;
     font-family: sans-serif, monospace;
@@ -43,3 +47,17 @@ footer {
     text-align: center;
     border: 5px solid #6e84cf;
 }
+
+/*
+p {
+    margin: 50px;
+    border: 10px solid mediumturquoise;
+    padding: 30px;
+    background: black;
+    color: antiquewhite;
+    inline-size: 200px;
+}
+*/
+/*
+git remote set-url origin https://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@github.com/timmy998/bouldersite.git
+*/
