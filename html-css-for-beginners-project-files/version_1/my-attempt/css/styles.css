@@ -1,0 +1,45 @@
+body {
+    font-size: 1.25rem;
+    font-family: sans-serif, monospace;
+    line-height: 1.5;
+}
+
+header {
+    text-align: center;
+}
+
+p {
+    margin-block: 30px;
+}
+
+ul {
+    margin-block: 30px;
+}
+
+h1 {
+    font-size: 3rem;
+    font-family: monospace;
+    color: #4676a9;
+    text-align: center;
+    line-height: 1.2;
+}
+
+h2 {
+    color: #cb731c;
+}
+
+h3 {
+    color: #cb731c;
+}
+
+section {
+    margin-block: 100px;
+}
+
+footer {
+    padding-block: 10px;
+    background-color: #22466c;
+    color: #ffffff;
+    text-align: center;
+    border: 5px solid #6e84cf;
+}
