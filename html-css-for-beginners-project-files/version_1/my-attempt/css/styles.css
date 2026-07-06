@@ -21,9 +21,8 @@ ul {
 }
 
 h1 {
-    font-size: 3rem;
-    font-family: monospace;
-    color: #4676a9;
+    font-size: 7rem;
+    color: #484d55;
     text-align: center;
     line-height: 1.2;
 }
@@ -40,12 +39,65 @@ section {
     margin-block: 100px;
 }
 
+.li-color {
+    color: #087a98;
+}
+
+/* These is for changing the color of links to whatever u want */
+a {
+    color: #2b930b;
+}
+
+a:visited {
+    color: mediumaquamarine;
+}
+
+a:hover,
+a:focus-visible {
+    color: #5f9b9f;
+}
+
+a:active {
+    color: black;
+}
+
+a {
+    text-decoration-color: #0b4a5a;
+}
+
+/*
+.accent {
+    color: red;
+}
+
+#first-paragraph {
+    color: green;
+    font-size: 1.5rem;
+}
+*/
+
 footer {
-    padding-block: 10px;
+    /*    padding-block: 10px;
     background-color: #22466c;
-    color: #ffffff;
+    color: #ffffff; */
     text-align: center;
-    border: 5px solid #6e84cf;
+    /*    border: 5px solid #6e84cf;*/
+}
+
+/* These are classes that can be reused*/
+.teal-text {
+    color: #087a98;
+}
+
+.teal-bg {
+    color: #ffffff;
+    padding: 20px;
+    border: #0b4a5a solid 10px;
+    background-color: #087a98;
+}
+
+.text-black {
+    color: black;
 }
 
 /*
