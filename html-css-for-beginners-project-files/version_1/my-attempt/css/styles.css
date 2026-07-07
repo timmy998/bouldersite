@@ -31,10 +31,6 @@ h2 {
     color: #cb731c;
 }
 
-h3 {
-    color: #cb731c;
-}
-
 section {
     margin-block: 100px;
 }
@@ -96,10 +92,36 @@ footer {
     background-color: #087a98;
 }
 
+.teal-bg strong {
+    color: magenta;
+}
+
 .text-black {
     color: black;
 }
 
+.climber-bg {
+    color: #ffffff;
+    background-image: url("../../../version_2/images/simple-steps.jpg");
+    padding: 24px;
+    border: #0b4a5a solid 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/*
+ul,
+ol {
+    color: magenta;
+    list-style:;
+}
+
+li::marker {
+    color: maroon;
+    content: "🔥";
+}
+*/
 /*
 p {
     margin: 50px;
