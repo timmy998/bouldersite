@@ -35,6 +35,11 @@ section {
     margin-block: 100px;
 }
 
+.wrapper {
+    max-inline-size: 1000px;
+    margin-inline: auto;
+}
+
 .li-color {
     color: #087a98;
 }
@@ -51,6 +56,11 @@ a:visited {
 a:hover,
 a:focus-visible {
     color: #5f9b9f;
+}
+
+img {
+    display: block;
+    max-inline-size: 100%;
 }
 
 a:active {
