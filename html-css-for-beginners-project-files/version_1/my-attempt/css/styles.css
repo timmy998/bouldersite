@@ -8,9 +8,11 @@ body {
     line-height: 1.5;
 }
 
+/*
 header {
     text-align: center;
 }
+*/
 
 p {
     margin-block: 30px;
@@ -21,10 +23,14 @@ ul {
 }
 
 h1 {
-    font-size: 7rem;
+    font-size: 4.5rem;
     color: #484d55;
     text-align: center;
     line-height: 1.2;
+
+    @media (width > 720px) {
+        font-size: 7.5rem;
+    }
 }
 
 h2 {
@@ -35,19 +41,65 @@ section {
     margin-block: 100px;
 }
 
+header {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    /* border: 5px dotted red; */
+}
+/*
+header img {
+    border: 5px solid green;
+}
+
+.primary-navigation {
+    border: 5px dashed purple;
+}
+*/
+
+.primary-navigation ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
 .wrapper {
     max-inline-size: 1000px;
     margin-inline: auto;
 }
+
+.two-column-layout {
+    display: grid;
+    gap: 60px;
+    margin-block-end: 60px;
+
+    @media (width > 720px) {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+/*Media query to control how the website behaves on different screens.
+ in this specific case, it's being used so that the two columns only come into play when the screen is larger than a certain size
+ you can nest these in ou selectors, the example below is how you'd write it normally.
+@media (width > 600px) {
+    .two-column-layout {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+*/
 
 .li-color {
     color: #087a98;
 }
 
 /* These is for changing the color of links to whatever u want */
+/*S
 a {
     color: #2b930b;
 }
+*/
 
 a:visited {
     color: mediumaquamarine;
@@ -65,6 +117,17 @@ img {
 
 a:active {
     color: black;
+}
+
+.primary-navigation a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.primary-navigation a:hover,
+.primary-navigation a:focus-visible {
+    color: #5f9b9f;
 }
 
 a {
@@ -102,10 +165,6 @@ footer {
     background-color: #087a98;
 }
 
-.teal-bg strong {
-    color: magenta;
-}
-
 .text-black {
     color: black;
 }
@@ -141,7 +200,4 @@ p {
     color: antiquewhite;
     inline-size: 200px;
 }
-*/
-/*
-git remote set-url origin https://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@github.com/timmy998/bouldersite.git
 */
